@@ -1,0 +1,60 @@
+*{
+    outline: none;
+    box-sizing: border-box;
+}
+
+.page-title-divider{
+    margin-left: 10px;
+}
+/*login section*/
+#custom-cover{
+    background: #fff;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    /*height: 100vh;*/
+    z-index: 800;
+    /*display: flex;
+    justify-content: center;
+    align-items: center;*/
+    text-align: center;
+    display: block;
+}
+
+#logInProgress{
+    display: none;
+    margin: auto;
+    /*width: 50%;*/
+}
+
+#logInError{
+    display: none;
+    color: red;
+}
+
+
+#loginButton {
+    margin: auto;
+    display: inline;
+   
+}
+
+/*#signUp{
+    margin: auto;
+    border: 10px solid black;
+    display: inline;
+}*/
+/*
+.inline {
+    display: inline;
+    border:  8px soild black;
+}*/
+
+#signUp-cover{
+    display: none;
+}
+
+#main-page-Content{
+
+}
